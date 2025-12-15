@@ -1,0 +1,348 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\classesList}[4]{
+    \item\small{
+        {#1 #2 #3 #4 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Alex Cândido} \\ \vspace{1pt}
+~     \small
+    \href{mailto:alex.candido.dev@gmail.com}{\raisebox{-0.2\height}
+\faEnvelope\  \underline{alex.candido.dev@gmail.com}} 
+    ~ 
+    \href{https://www.linkedin.com/in/alexcndd/}{\raisebox{-0.2\height}
+\faLinkedin\ \underline{linkedin.com/in/alexcndd}}  
+    ~
+    \href{https://github.com/alex-candido}{\raisebox{-0.2\height}
+\faGithub\ \underline{github.com/alex-candido}}
+    ~
+  {\raisebox{-0.2\height}
+\faMapMarker \hspace{.5pt} Fortaleza, CE, Brasil
+
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt} % padroniza espaçamento entre itens
+      \resumeItem{
+        \textbf{Desenvolvedor Backend} e \textbf{Engenheiro de Telecomunicações(em formação)} e \textbf{Técnico em Redes de Computadores}. Especializado na construção de soluções e software de alto desempenho, APIs RESTful e arquiteturas de microserviços. Tenho paixão por otimizar sistemas complexos e um forte interesse em aplicar tecnologias de ponta, como a inteligência artifical, para resolver desafios de negócios de alto impacto. Busco uma posição onde posso usar minha experiência para contribuir em um ambiente inovador orientado a produto.
+      }
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt} 
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {Instituto Federal de Educação, Ciência e Tecnologia do Ceará}{2020 -- 2025}
+        {B.S. Engenharia de Telecomunicações}{Em Andamento}
+      \resumeSubheading
+        {EEEP Profissional Presidente Roosevelt}{2016 -- 2018}
+        {Técnico em Redes de Computadores}{}
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt}
+      \resumeSubheading
+        {FB Online}{Jan. 2024 -- Present}
+        {Backend Developer}{Fortaleza, CE, Brasil}
+        \resumeItemListStart
+          \resumeItem{Desenvolvi e mantive APIs RESTful e arquiteturas de microserviços, com foco em escalabilidade e baixa latência.}
+          \resumeItem{Participei da modernização, migração e refatoração de serviços baseados em Ruby on Rails, Django, Nestjs, gerando melhorias de performance com impacto direto na agilidade para implementar novas funcionalidades.}
+          \resumeItem{Realizei a modelagem e otimização de bancos de dados relacionais (postgresql) e não relacionais (mongodb), focando na consistência dos dados e na alta performance das consultas.}
+          \resumeItem{Colaborei na automação de pipelines de CI/CD, integrando testes automatizados para garantir a estabilidade e a qualidade do código em produção.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {FB Online}{Jan. 2023 -- Dez. 2023}
+        {Frontend Developer (Intern)}{Fortaleza, CE, Brasil}
+        \resumeItemListStart
+            \resumeItem{Atuei diretamente no desenvolvimento da plataforma de ensino e de sistemas administrativos internos, criando interfaces de usuário reativas e componentizadas utilizando React/Nextjs e Vue/Nuxtjs.}
+          \resumeItem{Colaborei na evolução do Design System da plataforma, garantindo a consistência visual e a reutilização de componentes em múltiplos projetos.}
+          \resumeItem{Implementei testes automatizados para componentes de UI, assegurando a qualidade e a performance das interfaces em um ambiente de integração contínua.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Mob Telecom}{Set. 2021 -- Mar. 2022}
+        {Intern - Telecommunications Projects}{Fortaleza, CE, Brasil}
+        \resumeItemListStart
+          \resumeItem{Atuei em projetos de engenharia de redes ópticas, incluindo planejamento de topologias de BACKBONE e FTTH.}
+          \resumeItem{Desenvolvi scripts para automação da importação e processamento de dados geoespaciais (KML, DWG) para análise de viabilidade de expansão de rede.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Wirelink Telecom}{Ago. 2020 -- Set. 2021}
+        {Intern - Telecommunications Projects}{Fortaleza, CE, Brasil}
+        \resumeItemListStart
+          \resumeItem {Utilizei plataformas de gerenciamento de inventário de rede (Network Inventory Management) para manter o cadastro e a documentação dos ativos de rede.}
+          \resumeItem {Realizei o desenho técnico e a documentação de projetos de redes FTTX, detalhando a topologia da infraestrutura óptica.}
+    
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Maresia - Sand Beach Indústria}{Fev. 2019 -- Mai. 2020}
+        {IT Support \& Helpdesk}{Fortaleza, CE, Brasil}
+        \resumeItemListStart
+          \resumeItem{Prestei suporte técnico (N1/N2) para resolução de incidentes de hardware e software, além de realizar a gestão do ciclo de vida dos ativos de TI.}
+          \resumeItem{Fui responsável pela administração de sistemas operacionais, provisionamento de software e pelo suporte direto aos usuários para garantir a continuidade das operações.}
+        \resumeItemListEnd
+
+   \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+\pagebreak
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt} % padroniza espaçamento entre itens
+      \resumeItem{
+        \textbf{Backend:} Ruby on Rails, Python (Django/Flask), TypeScript (NestJS), Node.js/Express.js
+      }
+      \resumeItem{
+        \textbf{Frontend:} Vue.js/Nuxt.js, React.js/Next.js, TypeScript, JavaScript, HTML/CSS
+      }
+      \resumeItem{
+        \textbf{Databases:} PostgreSQL, MongoDB, Redis, GraphQL, Supabase
+      }
+      \resumeItem{
+        \textbf{DevOps:} Docker, Git/GitHub, CI/CD (GitHub Actions), Vercel, Heroku
+      }
+      \resumeItem{
+        \textbf{Telecomunicações:} Redes FTTX, SWAP, BACKBONE, FTTH, Sistemas DWDM, OZmap, ConnectMaster
+      }
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Palantir} $|$ \emph{Ruby on Rails}}{Continuous}
+          \resumeItemListStart
+            \resumeItem{Atuei em projetos de engenharia de redes ópticas, incluindo planejamento de topologias de BACKBONE e FTTH.}
+            \resumeItem{Serve como núcleo para toda a plataforma, gerenciando dados de alunos, professores, e coordenadores.}
+            \resumeItem{Desenvolvido com uma arquitetura monolítica em Ruby on Rails, focado em robustez e escalabilidade.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Escolas} $|$ \emph{Python (Django)}}{Continuous}
+          \resumeItemListStart
+            \resumeItem{Plataforma B2B para escolas parceiras, permitindo a gestão de conteúdo e de alunos de forma independente.}
+            \resumeItem{Oferece um portal administrativo para as escolas customizarem a experiência de seus alunos e acompanharem seu progresso.}
+            \resumeItem{Desenvolvido integralmente em Python com o framework Django, com arquitetura multi-tenant.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Galadriel} $|$ \emph{Python (Flask, Scikit-learn, Pandas)}}{Continuous}
+          \resumeItemListStart
+            \resumeItem{Sistema de TRI (Teoria de Resposta ao Item) para predição de notas e análise psicométrica de simulados.}
+            \resumeItem{Utiliza modelos de aprendizado de máquina para o tratamento e cálculo de predições de desempenho dos alunos.}
+            \resumeItem{Inclui um sistema administrativo para gerenciamento de provas, algoritmos e visualização de relatórios analíticos.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Calculadora ENEM} $|$ \emph{Ruby on Rails, Vue.js/Nuxt.js, TypeScript}}{2024}
+          \resumeItemListStart
+            \resumeItem{Simulador de provas com correção automática e notas baseadas na TRI do ENEM.}
+            \resumeItem{Relatórios detalhados de desempenho por área do conhecimento.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Hiperlinks} $|$ \emph{Ruby on Rails, Vue.js/Nuxt.js, TypeScript}}{2024}
+          \resumeItemListStart
+            \resumeItem{Sistema para gerenciamento de links curtos com redirecionamento inteligente.}
+            \resumeItem{Geração automática de QR Codes e analytics em tempo real.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Gandalf} $|$ \emph{Vue.js/Nuxt.js, TypeScript}}{2023}
+          \resumeItemListStart
+            \resumeItem{Sistema completo com interface moderna e responsiva do FB Online.}
+            \resumeItem{Implementou sistema administrativo completo com API RESTful.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Saruman} $|$ \emph{Vue.js/Nuxt.js, TypeScript}}{2023}
+          \resumeItemListStart
+            \resumeItem{Plataforma completa do ambiente do aluno (AVA - Ambiente Virtual de Aprendizagem) do FBO Online.}
+            \resumeItem{Desenvolvido como um SPA (Single Page Application) consumindo as APIs RESTful do ecossistema Palantir.}
+            \resumeItem{Interface moderna e responsiva para consumo de conteúdo, realização de simulados e acompanhamento de desempenho.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+%-----------COURSES & CERTIFICATIONS-----------
+\section{Courses \& Certifications}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt} % padroniza espaçamento entre itens
+      \resumeItem{
+        \textbf{Telecomunicações:} LPE23 - Operação e Manutenção da Plataforma LightPad i6400G (Padtec), LPT02 - Introdução a Sistemas DWDM (Padtec)
+      }
+      \resumeItem{
+        \textbf{TI/Gestão:} ITIL Foundation V3 (PMG Academy), Fundamentos da Gestão de TI (FGV)
+      }
+      \resumeItem{
+        \textbf{Programação:} SQL Completo (Softblue), Lógica de Programação (SENAI), Aprendendo a Programar (SOFTEX)
+      }
+      \resumeItem{
+        \textbf{Redes:} Fundamentos de Rede (SOFTEX), Introdução a Redes de Computadores (Fundação Bradesco)
+      }
+      \resumeItem{
+        \textbf{Pesquisa:} Metodologia da Pesquisa e Orientação de Projetos de Iniciação Científica (FEBRACE)
+      }
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+\end{document}
