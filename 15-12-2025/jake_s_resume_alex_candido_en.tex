@@ -1,0 +1,321 @@
+%-------------------------
+% Resume in Latex
+% Author : Jake Gutierrez
+% Based off of: https://github.com/sb2nov/resume
+% License : MIT
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+%----------FONT OPTIONS----------
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\renewcommand\labelitemi{$\vcenter{\hbox{\tiny$\bullet$}}$}
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape Alex Cândido} \\ \vspace{1pt}
+    \small
+    \href{mailto:alex.candido.dev@gmail.com}{\raisebox{-0.2\height}
+\faEnvelope\  \underline{alex.candido.dev@gmail.com}} 
+    ~ 
+    \href{https://www.linkedin.com/in/alexcndd/}{\raisebox{-0.2\height}
+\faLinkedin\ \underline{linkedin.com/in/alexcndd}}  
+    ~
+    \href{https://github.com/alex-candido}{\raisebox{-0.2\height}
+\faGithub\ \underline{github.com/alex-candido}}
+    ~
+  {\raisebox{-0.2\height}
+\faMapMarker \hspace{.5pt} Fortaleza, CE, Brazil}
+
+    \vspace{-8pt}
+\end{center}
+
+
+%-----------SUMMARY-----------
+\section{Summary}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt}
+      \resumeItem{
+        \textbf{Backend Developer}, \textbf{Telecommunications Engineer (undergraduate)}, and \textbf{Computer Networks Technician}. Specialized in building high-performance software solutions, RESTful APIs, and microservices architectures. Passionate about optimizing complex systems and highly interested in applying cutting-edge technologies, such as Artificial Intelligence, to solve high-impact business challenges. Seeking a position where I can leverage my experience to contribute to an innovative, product-oriented environment.
+      }
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt} 
+
+
+%-----------EDUCATION-----------
+\section{Education}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \resumeSubheading
+        {Federal Institute of Education, Science and Technology of Ceará}{2020 -- 2025}
+        {B.S. in Telecommunications Engineering}{Ongoing}
+      \resumeSubheading
+        {EEEP Profissional Presidente Roosevelt}{2016 -- 2018}
+        {Technical Degree in Computer Networks}{}
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+
+%-----------EXPERIENCE-----------
+\section{Experience}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt}
+      \resumeSubheading
+        {FB Online}{Jan. 2024 -- Present}
+        {Backend Developer}{Fortaleza, CE, Brazil}
+        \resumeItemListStart
+          \resumeItem{Developed and maintained RESTful APIs and microservices architectures, focusing on scalability and low latency.}
+          \resumeItem{Participated in the modernization, migration, and refactoring of services based on Ruby on Rails, Django, and NestJS, delivering performance improvements and increasing deployment agility for new features.}
+          \resumeItem{Performed modeling and optimization of relational (PostgreSQL) and non-relational (MongoDB) databases, focusing on data consistency and high-performance queries.}
+          \resumeItem{Collaborated on CI/CD pipeline automation, integrating automated tests to ensure code stability and quality in production.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {FB Online}{Jan. 2023 -- Dec. 2023}
+        {Frontend Developer (Intern)}{Fortaleza, CE, Brazil}
+        \resumeItemListStart
+            \resumeItem{Worked directly on the development of the learning platform and internal administrative systems, creating reactive and componentized user interfaces using React/Next.js and Vue/Nuxt.js.}
+          \resumeItem{Contributed to the evolution of the platform's Design System, ensuring visual consistency and component reusability across multiple projects.}
+          \resumeItem{Implemented automated tests for UI components, ensuring interface quality and performance within a continuous integration environment.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Mob Telecom}{Sep. 2021 -- Mar. 2022}
+        {Intern - Telecommunications Projects}{Fortaleza, CE, Brazil}
+        \resumeItemListStart
+          \resumeItem{Worked on optical network engineering projects, including planning for BACKBONE and FTTH topologies.}
+          \resumeItem{Developed scripts to automate the import and processing of geospatial data (KML, DWG) for network expansion feasibility analysis.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Wirelink Telecom}{Aug. 2020 -- Sep. 2021}
+        {Intern - Telecommunications Projects}{Fortaleza, CE, Brazil}
+        \resumeItemListStart
+          \resumeItem {Utilized Network Inventory Management platforms to maintain the registry and documentation of network assets.}
+          \resumeItem {Performed technical drawing and documentation for FTTX network projects, detailing optical infrastructure topology.}
+        \resumeItemListEnd
+
+      \resumeSubheading
+        {Maresia - Sand Beach Indústria}{Feb. 2019 -- May 2020}
+        {IT Support \& Helpdesk}{Fortaleza, CE, Brazil}
+        \resumeItemListStart
+          \resumeItem{Provided L1/L2 technical support for hardware and software incidents and managed the IT asset lifecycle.}
+          \resumeItem{Responsible for OS administration, software provisioning, and direct user support to ensure operational continuity.}
+        \resumeItemListEnd
+
+   \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+\pagebreak
+%-----------TECHNICAL SKILLS-----------
+\section{Technical Skills}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt}
+      \resumeItem{
+        \textbf{Backend:} Ruby on Rails, Python (Django/Flask), TypeScript (NestJS), Node.js/Express.js
+      }
+      \resumeItem{
+        \textbf{Frontend:} Vue.js/Nuxt.js, React.js/Next.js, TypeScript, JavaScript, HTML/CSS
+      }
+      \resumeItem{
+        \textbf{Databases:} PostgreSQL, MongoDB, Redis, GraphQL, Supabase
+      }
+      \resumeItem{
+        \textbf{DevOps:} Docker, Git/GitHub, CI/CD (GitHub Actions), Vercel, Heroku
+      }
+      \resumeItem{
+        \textbf{Telecommunications:} FTTX Networks, SWAP, BACKBONE, FTTH, DWDM Systems, OZmap, ConnectMaster
+      }
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+%-----------PROJECTS-----------
+
+\section{Projects}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+
+      \resumeProjectHeading
+          {\textbf{Palantir} $|$ \emph{Ruby on Rails}}{Continuous}
+          \resumeItemListStart
+            \resumeItem{Core engine for the entire platform, managing student, teacher, and coordinator data.}
+            \resumeItem{Developed with a monolithic architecture in Ruby on Rails, focused on robustness and scalability.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Escolas} $|$ \emph{Python (Django)}}{Continuous}
+          \resumeItemListStart
+            \resumeItem{B2B platform for partner schools, allowing independent content and student management.}
+            \resumeItem{Offers an administrative portal for schools to customize the student experience and track progress.}
+            \resumeItem{Developed entirely in Python with the Django framework, using multi-tenant architecture.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Galadriel} $|$ \emph{Python (Flask, Scikit-learn, Pandas)}}{Continuous}
+          \resumeItemListStart
+            \resumeItem{IRT (Item Response Theory) system for grade prediction and psychometric analysis of mock exams.}
+            \resumeItem{Uses machine learning models for processing and calculating student performance predictions.}
+            \resumeItem{Includes an admin system for managing exams, algorithms, and analytical report visualization.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{ENEM Calculator} $|$ \emph{Ruby on Rails, Vue.js/Nuxt.js, TypeScript}}{2024}
+          \resumeItemListStart
+            \resumeItem{Exam simulator with automatic grading and scores based on official ENEM IRT metrics.}
+            \resumeItem{Detailed performance reports by field of knowledge.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Hiperlinks} $|$ \emph{Ruby on Rails, Vue.js/Nuxt.js, TypeScript}}{2024}
+          \resumeItemListStart
+            \resumeItem{Short link management system with intelligent redirection.}
+            \resumeItem{Automatic QR Code generation and real-time analytics.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Gandalf} $|$ \emph{Vue.js/Nuxt.js, TypeScript}}{2023}
+          \resumeItemListStart
+            \resumeItem{Complete system with a modern and responsive interface for FB Online.}
+            \resumeItem{Implemented a full administrative system with a RESTful API.}
+          \resumeItemListEnd
+
+      \resumeProjectHeading
+          {\textbf{Saruman} $|$ \emph{Vue.js/Nuxt.js, TypeScript}}{2023}
+          \resumeItemListStart
+            \resumeItem{Complete Student Environment platform (LMS - Learning Management System) for FB Online.}
+            \resumeItem{Developed as a SPA (Single Page Application) consuming RESTful APIs from the Palantir ecosystem.}
+            \resumeItem{Modern and responsive interface for content consumption, mock exams, and performance tracking.}
+          \resumeItemListEnd
+
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+%-----------COURSES & CERTIFICATIONS-----------
+\section{Courses \& Certifications}
+\begin{minipage}{\dimexpr\textwidth-0.2cm}
+  \hspace*{0.2cm}
+  \begin{minipage}{\dimexpr\textwidth}
+    \resumeSubHeadingListStart
+      \setlength{\itemsep}{2pt}
+      \resumeItem{
+        \textbf{Telecommunications:} LPE23 - LightPad i6400G Platform O\&M (Padtec), LPT02 - Introduction to DWDM Systems (Padtec)
+      }
+      \resumeItem{
+        \textbf{IT/Management:} ITIL Foundation V3 (PMG Academy), IT Management Fundamentals (FGV)
+      }
+      \resumeItem{
+        \textbf{Programming:} Advanced SQL (Softblue), Programming Logic (SENAI), Learning to Program (SOFTEX)
+      }
+      \resumeItem{
+        \textbf{Networking:} Network Fundamentals (SOFTEX), Introduction to Computer Networks (Bradesco Foundation)
+      }
+      \resumeItem{
+        \textbf{Research:} Research Methodology and Scientific Initiation Project Guidance (FEBRACE)
+      }
+    \resumeSubHeadingListEnd
+  \end{minipage}
+\end{minipage}
+\vspace{10pt}
+
+\end{document}
