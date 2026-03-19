@@ -1,37 +1,16 @@
-# Alex Cândido - Backend Developer & Telecommunications Engineer
-
-Professional portfolio and resume. This repository contains my resume in LaTeX (Portuguese and English versions) and a summary of my technical background.
-
 ## Professional Profile
 
-I am a **Backend Developer**, **Telecommunications Engineer (undergraduate)**, and **Computer Networks Technician**. I specialize in building high-performance software solutions, RESTful APIs, and microservices architectures.
+Backend Developer at FB Online, Computer Engineering student, specialized in building high-performance RESTful APIs with Ruby on Rails. My work is focused on high-availability systems architecture, spanning the maintenance of monoliths and the implementation of scalable microservices, with rigorous attention to latency, data consistency, and availability in high-traffic scenarios.
+ 
+I have experience developing solutions for synchronous and asynchronous processing, managing queues and background jobs to ensure system resilience and data integrity in critical workflows. My technical foundation is built on Clean Code and SOLID principles, combined with a strong culture of infrastructure automation and continuous reduction of technical debt, always prioritizing systems that scale safely and are easy to evolve.
+ 
+I am an enthusiast and active user of Artificial Intelligence in the development cycle, applying it both to elevate the quality and speed of delivery and to build intelligent solutions that generate real impact on the product. I believe that quality engineering and continuous learning go hand in hand, and it is with this mindset that I build every solution.
 
-My career is driven by a passion for optimizing complex systems and applying cutting-edge technologies—such as Artificial Intelligence—to solve high-impact business challenges. I have extensive experience in modernizing and refactoring services (Ruby on Rails, Django, NestJS) to improve scalability and reduce latency. I am looking for a position where I can contribute to an innovative, product-oriented environment.
-
----
-
-## Key Technical Skills
-
-* **Backend:** Ruby on Rails, Python(Django/Flask) & Typescript(Nestjs)
-* **Frontend:** Reactjs/Nextjs & Vuejs/Nuxtjs
-* **Mobile:** React Native
-* **Architecture:** Microserviços, RESTful, Design Patterns, DDD, SOLID
-* **Databases:** PostgreSQL, MongoDB, Redis, GraphQL, Supabase
-* **Tests:** Jest, RSpec, PyTest, unit tests, integration and E2E
-* **Infrastructure & DevOps/SRE:** Docker, Vercel, Heroku, CI/CD(GitHub Actions)
-* **Security:** OAuth 2.0, JWT, HTTPS/TLS
-* **Tools:** Swagger, Postman, Insomnia, RestClient
-* **Specialized:** FTTX Networks, SWAP, BACKBONE, FTTH, DWDM Systems, OZmap, ConnectMaster.
-
-## Education & Certifications
-* **B.S. Telecommunications Engineering** - IFCE (Ongoing).
-* **Computer Networks Technician** - EEEP Pres. Roosevelt.
-* **Certifications:** ITIL Foundation V3, Padtec DWDM Systems, Advanced SQL, and Research Methodology (FEBRACE).
-
----
+Email: alex.candido.dev@gmail.com
+GitHub: https://github.com/alex-candido
 
 ## Resume Files
-* [English Version](./15-12-2025/jake_s_resume_alex_candido_en.pdf)
-* [Portuguese Version](./15-12-2025/jake_s_resume_alex_candido_pt.pdf)
+* [English Version](./18-03-2026/jake_s_resume_alex_candido_en.pdf)
+* [Portuguese Version](./18-03-2026/jake_s_resume_alex_candido_pt.pdf)
 
 > Based on the [Jake's Resume](https://github.com/sb2nov/resume) template.
